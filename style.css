@@ -1,0 +1,1598 @@
+/*
+    Theme Name: HomeStyle Jamaican Restaurant
+	Author: Rick Mastry
+	Description: HomeStyle Jamaican Restaurant
+	Version: 1.0 
+*/
+ /**{
+    box-sizing: border-box; 
+}*/
+* {
+    box-sizing: border-box;
+  }
+  
+  .box-container {
+    position:relative;
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .box-container:after,
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /*.row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }*/
+  
+  /*[class*='col-'] {
+    float: left;
+    padding: 0 1em;
+    width: 100%;
+    min-height: 1px;
+    display: inline-block;
+  }*/
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+header{
+    position: absolute;
+    width: 100%;
+    color: white;
+    z-index: 2;
+}
+
+/*.header-container{
+ background-color: #000;
+}*/
+
+.logo{
+    padding: 10px 10px 10px 10px;
+    text-align:left;
+} 
+
+.img-logo{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+img{
+    position: absolute;
+    width: 100%;
+   /* padding: 10px 10px;*/
+    padding-left: 0;
+    margin-left: 0;
+    }
+
+ .clarendon-logo{
+     margin-top: 10px;
+ }   
+       
+
+nav.topnav{
+    float: right;
+    text-align: right;
+    padding: 10px 10px;
+    margin-top: 10px;
+    padding-right: 30px;
+    }
+
+nav.topnav li{
+    display: inline;
+    list-style: none;
+}  
+
+    
+.topnav a{
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 1.25rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 1.25rem;
+    font-family: 'PT Sans', sans-serif;
+}
+   
+#Topimg{
+    position: relative;
+    background: black;
+    min-height: 500px;
+    height: 100vh;
+    width:100vw;
+    background: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("/img/ls.jpg");
+    background-position: center; 
+    background-size: cover; 
+    border-bottom: 2px solid black;
+    
+}
+
+img.ls-img{
+    position: absolute;
+    background: black;
+    min-height: 500px;
+    height: 100vh;
+    width:100vw;
+    background-position: center; 
+    background-size: cover; 
+    border-bottom: 2px solid black;
+    object-fit: cover;
+    
+}
+
+.image-overlay{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top:0;
+	left: 0;
+	background:linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%);
+	z-index: 1;
+	opacity:0.85;
+}
+
+
+.title{
+    padding: 100px 0 80px;
+    text-align: right;
+    z-index: 2;
+}
+
+h1{
+    font-family: 'Rozha One';
+    text-transform: uppercase;
+    color:white;
+    font-weight: 300;
+    font-size: 3.5rem;
+    padding-right: 100px;
+    text-align: right;
+    z-index: 2;
+}
+
+h1.hjr{
+    position: relative;
+    font-family: 'Rozha One';
+    text-transform: uppercase;
+    /*background: -webkit-linear-gradient(45deg, rgba(255,255,0,1) 0%, rgba(0,128,0,1) 50%, rgba(255,255,0,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+    color:white;
+    font-weight: 300;
+    font-size: 3.5rem;
+    padding-right: 100px;
+    padding-top: 0px;
+    text-align: right;
+    z-index: 2;
+}
+        
+    
+h5.welcome{
+    position: relative;
+    text-transform: uppercase;
+    color:white;
+    font-weight: 600;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    font-size:2rem;
+    text-align: right;
+    letter-spacing: .8em;
+    margin-top: 50px ;
+    z-index: 2; 
+}
+
+
+.contact{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    text-align: right;
+    padding-right: 50px;
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-align: right;
+    z-index: 2;
+}
+
+strong{
+    font-weight: 700;
+    color: white;
+    padding-right: 0px;
+    font-size: 1.25rem;
+    text-align: right;
+    z-index: 2;
+}
+
+
+
+h3.tag{
+    text-transform: none;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 1.25rem;
+    z-index: 2;
+}
+
+h3.numbers{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+    margin-top: 2px;
+    text-align: right;
+    z-index: 2;
+}
+
+#OurStory{
+    padding: 100px 0;
+}
+
+h2{
+    font-size: 50px;
+    font-family: 'Rozha One';
+    text-transform: capitalize;
+}
+
+
+.quote{
+    color: black;
+    margin: 0.5rem 0 3rem;
+}
+
+.name{
+    font-weight: 700;
+    color: black;
+}
+
+p.ours{
+    font-size: 1.5rem;
+}
+            
+   
+
+.reserve-btn{
+    background:-webkit-linear-gradient(45deg, rgba(255,255,0,1) 0%, rgba(0,128,0,1) 50%, rgba(255,255,0,1) 100%);
+    background-color: green;
+    font-family:Rozha+One;
+    padding: 20px 30px;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    font-size: 15px;
+}
+
+.reserve-btn:hover{
+    background: yellow;
+    color: black;
+}
+
+
+.grid-container{
+    display:grid;
+}
+    
+
+.video-img{
+    max-width:400px;
+    height: 400px;
+    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), 
+    url("/img/oxgoat.jpg");
+    background-position: center ; 
+    background-size: cover; 
+    margin: 0 auto;
+}
+
+.img-vi{
+    max-width:400px;
+    height: 400px;
+    background-position: center ; 
+    background-size: cover; 
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.comp-title{
+    color:black;
+    text-align: left;
+    letter-spacing: 1em;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+#SpecialMenu{
+    padding: 0px 0;
+    margin-bottom: 5px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
+    background-image:url("/img/jabk.jpg");
+    width:100%;
+    height:900px;
+    background-position:  center ; 
+    background-repeat: repeat;
+}
+
+img.sm{
+    position: absolute;
+    height: 900px;
+}
+
+img.menu-image{
+    position: absolute;
+    width: 100%;
+    height:200px;
+}
+
+.spec-title{
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    letter-spacing: .8em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h6{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+h6.dfj{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+/*h2.spec-title{
+    display: block;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+}*/
+
+.box-container{
+    margin: auto;
+}
+
+    
+
+.box{
+    position:relative;
+    background: #fff;
+    padding: 20px;
+    width:100%;
+    height: 400px;
+}
+
+.box1-img{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
+    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("/img/jerk.jpg");
+    background-position:  center ; 
+    background-size: cover; 
+    position: relative;
+    margin-bottom: 75px;
+}
+.box2-img{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
+    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("/img/curry.jpg");
+    background-position:  center ; 
+    background-size: cover; 
+    position: relative;
+    margin-bottom: 75px;
+}
+.box3-img{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
+    background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), url("/img/brown.png");
+    background-position:  center ; 
+    background-size: cover; 
+    position: relative;
+    margin-bottom: 75px;
+}
+
+.price-circle{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    font-family:'Rozha One' ;
+    font-size: 1.75rem;
+    background: #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    box-shadow: 0px 0px 0px 10px rgba(255,255,255,0.41);
+
+}
+
+.box-title{
+    display: block;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+    
+
+}
+
+.title{
+    display: block;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+}
+
+.details{
+    font-weight: 300;
+    font-size: .9rem;
+    text-align: center;
+    line-height: 2;
+    margin: 0;
+}
+    
+
+/*.boxes{
+    padding-bottom: 50px;
+}*/
+
+.middle{
+    text-align: center;
+}
+a.linky {
+    display:block;
+    padding-top: 10px;
+    color: #fff;
+    font-family: 'Rozha One';
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+a.linky:hover{
+    color: #ff0000;
+    font-weight: 600;
+}
+
+.box-title{
+    display: block;
+    color:black;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 2;
+    margin: 0;
+}
+
+
+#RandomQuote{
+    position:relative;
+    height: 400px;
+    padding: 0px 0;
+    background-position: center ; 
+    background-size: cover; 
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background: linear-gradient(135deg, rgba(0, 0, 0,.9)0, #000 100%);
+
+    }
+
+img.rq{
+    position: relative;
+    height: 400px;
+    max-width: 100%;
+    background-position: center; 
+    /*background-size: cover; */
+    /*background-image: linear-gradient(135deg, rgba(0, 0, 0,.5)0, #000 100%);*/
+    object-fit: cover;
+
+}   
+
+.wrap{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+.header-overlay{
+	height: 400px;;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	background-image: linear-gradient(135deg, rgba(0, 0, 0,.5)0, #000 100%);
+	z-index: 1;
+	opacity:0.85;
+}
+
+.quote1{
+    position: relative;
+    padding-top: 120px;
+    color:white;
+    font-size: 3.75rem;
+    text-align: center;
+    z-index: 2;
+}
+
+p.author{
+    position: relative;
+    color:white;
+     font-size: 1.25rem;
+     font-weight: 300;
+     text-transform: capitalize;
+     text-align: center;
+     z-index: 2;
+ }
+
+ #Reviews{
+    padding: 50px 0;
+    text-align: right;
+    padding-bottom: 0px;
+ }
+
+ .rev-title{
+     text-align: right;
+     color:black;
+     padding-right: 50px;
+     padding-top: 50px;
+     font-size: 1.75rem;
+     font-weight: 100;
+     letter-spacing: .3em;
+ }
+
+ h1.accolades{
+     color: black;
+     line-height: 1;
+     padding-right: 50px;
+ }
+
+ .review-div p{
+    font-size: 1.25rem;
+ }
+.side-img{
+    padding-top: 5px;
+    position: relative;
+    height: 600px;
+    width: 600px;
+    text-align: left;
+}
+
+img{
+    position: absolute;
+    /*max-width: 600px;*/
+    width: 100%;
+}
+
+   
+
+h4{
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.author{
+    font-size: .8rem;
+    font-weight: 300;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+strong{
+    color:white;
+    font-weight: 700;
+}
+
+p.review{
+    font-size:1.5rem;
+}
+
+a.unslider-arrow.prev, a.unslider-arrow.next{
+    font-size: 45px;
+}
+
+i.fa.fa-3.fa-arrow-circle-right, i.fa.fa-3.fa-arrow-circle-left{
+    color:black;
+}
+
+i.fa.fa-3.fa-arrow-circle-right:hover, i.fa.fa-3.fa-arrow-circle-left:hover{
+        color:green;
+}
+
+#ContactUs{
+    padding: 50px 0;
+    background: grey;
+}
+
+.name,.contact-title{
+    text-align: center;
+}
+
+
+.content-box{
+    padding: 20px 20px 20px 20px;
+    background: white;
+    height: auto;
+    margin-bottom: 75px;
+}
+
+
+h5.contact-title{
+    font-family: Rozha+One ;
+    font-size: 1.5rem;
+    margin-top: 0;
+    letter-spacing: .2em;
+    color:black;
+}
+
+.name{
+    font-weight: 200;
+}
+
+.city{
+    text-align: left;
+    font-size: 1.7rem;
+    color:black;
+    font-weight: 600;
+    line-height: 1.7;
+    margin-top:10px;
+}
+
+.address{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    line-height: 1.7;
+}
+
+strong.email, p.email{
+    text-align: left;
+    font-size: 1.5rem;
+    color:black;
+    font-weight: 600;
+}
+
+.contact-phone{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+    margin-top: 10px;
+}
+
+.lunch{
+    text-align: left;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.dinner{
+    text-align: left;
+    font-size: 1.5rem;
+    color: black;
+    line-height: 1.7;
+}
+.contact-info{
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: black;
+    line-height: 1.7;
+}
+
+
+
+h3.number{
+    text-align: left;
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: black;
+}
+
+.open-days{
+    font-weight: 600;
+    color: black;
+}
+           
+a.elink{
+    color: green;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+a.elink:hover{
+    color: #911A20;
+    font-weight: 600;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+nav.topnav a:hover{
+    /*color:#911A20;*/
+    color:red;
+    font-weight: 600;
+}
+
+footer{
+    padding: 100px 0;
+    background: #131A22;
+    width: 100%;
+    text-align: center;
+}
+
+nav.footer-menu{
+    display: inline-block;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+
+nav.footer-menu li{
+    display: inline;
+    list-style: none;
+}
+
+a.navvy{
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding: 15px 15px 15px 0;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    font-size:1.25rem;
+}
+
+nav.footer-menu a:hover{
+    color:#911A20;
+    
+}
+    
+
+.social-media{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li.color{
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+a.icons{
+    color:white;
+    transition: all 0.5s ease-in-out;
+}
+
+a.icons:hover{
+    color:#911A20;
+}
+
+.copyright{
+    color: white;
+}
+
+#fullmenu{
+    padding: 0;
+    margin:0;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
+    width:100%;
+    height:1200px;
+    background-position:  center ; 
+    background-repeat: no-repeat;
+    
+}
+
+.box-image{
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position:  center center; 
+    position: relative;
+    /*margin-bottom: 3px;*/
+}
+
+
+
+p.full-title{
+    position: relative;
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: .8em;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.box1{
+    width: 100%;
+    height: 750px;
+    position: relative;
+     background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+     border: black 2px solid;
+     margin-bottom: 50px;
+    
+}
+
+.box2{
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+    border: black 2px solid;
+    margin-bottom: 50px;
+   
+}
+
+.box-container2{
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+}
+
+.busname{
+    font-family: 'PT Sans', sans-serif;
+    display: block;
+    color:white;
+    font-weight: 600;
+    font-size: 1.50rem;
+    text-align: center;
+    line-height: 2;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+
+img.lsfm-img{
+    position: absolute;
+    padding: 0px;
+    margin:0;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    width:100%;
+    height:1200px;;
+    background-position:  center ; 
+    background-repeat: no-repeat;
+    
+}
+
+img.fmcc{
+    width: 100%;
+    height: 650px;
+    padding: 10px;
+}
+
+img.fmhs{
+    width: 100%;
+    height: 650px;
+    padding: 10px;
+}
+
+embed, iframe, img, object, video { max-width: 100%; }
+
+@media all and (max-width: 960px){
+   
+    .logo{
+        display: none;
+    } 
+    
+    .img-logo{
+        display: none;
+    }
+    
+     .clarendon-logo{
+        display: none;
+     } 
+     
+     img.ls-img{
+        position: absolute;
+        background: black;
+        height: 100%;
+        width:100%;
+        background-position: center; 
+        background-size: cover; 
+        border-bottom: 2px solid black;
+        object-fit: cover;
+        
+    }
+
+    
+
+    nav.topnav{
+    float: none;
+    text-align: center;
+    padding-right: 60px;
+    }
+
+    nav.topnav li{
+        display: block;
+        list-style: none;
+        padding-bottom: 2px;
+        margin-top: 2px;
+    }  
+
+        
+    a{
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 5px 5px;
+        font-size: .95rem;
+        font-family: 'PT Sans', sans-serif;
+    }
+
+   .topnav a{
+        display: block;
+        background-color: black;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+        padding: 5px 5px;
+        font-size: .95rem;
+        font-family: 'PT Sans', sans-serif;
+
+    }
+
+    h5.welcome{
+        position: relative;
+        text-transform: uppercase;
+        color:white;
+        font-weight: 400;
+        margin-top: 125px;
+        font-size:.92rem;
+        text-align: center;
+        letter-spacing: .4em;
+    }
+
+    h1{
+        font-family: 'Rozha One';
+        text-transform: uppercase;
+        color:white;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+    .title{
+        margin-top: 30px;
+    }
+
+    h1.hjr{
+        position: relative;
+        font-family: 'Rozha One';
+        text-transform: uppercase;
+       /*background: -webkit-linear-gradient(45deg, rgba(255,255,0,1) 0%, rgba(0,128,0,1) 50%, rgba(255,255,0,1) 100%);
+        color:white;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;*/
+        color:white;
+        font-weight: 300;
+        font-size: 1.75rem;
+        padding-right: 25px;
+        text-align: center;
+    }
+
+    h3.tag{
+    text-align: left;
+    font-size: 1rem;
+    }
+
+    .contact{
+        width: 100%;
+        position: absolute;
+        bottom: 25px;
+        right: 0;
+        text-align: center;
+        color: white;
+        font-size: 0.45rem;
+        line-height: .92rem;
+        text-align: center;
+    }
+
+    strong{
+    font-weight: 500;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    }
+
+    .booking{
+        margin-bottom: 10px;
+        font-size: .75rem;
+        text-align: center;
+    }
+
+    h3.numbers{
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+        color: white;
+        text-align: center;
+    }
+    
+    #OurStory{
+    padding: 10px 0;
+    }
+
+    h2{
+        font-size: 25px;
+        font-family: 'Rozha One';
+        text-transform: capitalize;
+    }
+
+    p.ours{
+    font-size: .75rem;
+    }
+
+    .reserve-btn{
+        background:-webkit-linear-gradient(45deg, rgba(255,255,0,1) 0%, rgba(0,128,0,1) 50%, rgba(255,255,0,1) 100%);
+        background-color: green;
+        font-family:Rozha+One;
+        padding: 10px 15px;
+        display: block;
+        border: 1px solid black;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        transition: all 0.5s ease-in-out;
+        font-size:12px;
+        margin-bottom: 7px;
+    }
+
+   .video-img{
+        max-width:200px;
+        height: 200px;
+        background-image: linear-gradient(135deg, rgba(0, 0, 0,.2)0, #000 100%), 
+        url("/img/oxgoat.jpg");
+        background-position: center ; 
+        background-size: cover; 
+        margin: 0 auto;
+    }
+
+    .img-vi{
+        max-width:200px;
+        height: 200px;
+        background-position: center ; 
+        background-size: cover; 
+        margin: 0 auto;
+        object-fit: cover;
+        
+    }
+
+    #SpecialMenu{
+        padding: 0px 0;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
+        background-image:url("/img/jabk.jpg");
+        max-width:100%;
+        height:1300px;
+        background-position:  center ; 
+        background-repeat: repeat;
+    }
+
+    img.sm{
+        background-size: 100%;
+        position: absolute;
+        max-width: 100%;
+        height: 1300px;
+
+    }
+
+    .spec-title{
+        position: relative;
+        padding-top: 12px;
+        text-align: center;
+        color: white;
+        font-size: 10px;
+        margin-top: 2.5px;
+        letter-spacing: .4em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    h6{
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    h6.dfj{
+        position: relative;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        margin-top: 2px;
+        height: 4px;
+    }
+
+    .box-container{
+        padding: 6px;
+        max-width: 100%;
+        max-height:100%;
+        margin:0 auto;
+    }
+
+    .box{
+    background: #fff;
+    padding: 10px;
+    max-width:100%;
+    height: 100%;
+    margin:0 auto;
+    display: block;
+    }
+
+    .col-md-4{
+        max-width: 80%;
+        max-height:70%;
+        margin: 0 auto;
+    }
+
+    img.menu-image{
+        max-width: 100%;
+        max-height:auto;
+        margin: auto;
+    }
+
+ 
+
+   a.linky {
+    display:none;
+   
+}
+
+
+   #RandomQuote{
+    position:relative;
+    height: 250px;
+    padding: 0px 0;
+    background-position: center ; 
+    background-size: cover; 
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background: linear-gradient(135deg, rgba(0, 0, 0,.9)0, #000 100%);
+    margin-top: 3px;
+
+    }
+
+    img.rq{
+        position: relative;
+        height: 250px;
+        max-width: 100%;
+        background-position: center; 
+        /*background-size: cover; */
+        /*background-image: linear-gradient(135deg, rgba(0, 0, 0,.5)0, #000 100%);*/
+        object-fit: cover;
+
+    }   
+
+    .wrap{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+    }
+
+    .header-overlay{
+        height: 250px;;
+        width: 100%;
+        position: absolute;
+        top:0;
+        left: 0;
+        background-image: linear-gradient(135deg, rgba(0, 0, 0,.5)0, #000 100%);
+        z-index: 1;
+        opacity:0.85;
+    }
+
+    .quote1{
+        position: relative;
+        padding-top: 60px;
+        color:white;
+        font-size: 1.875rem;
+        text-align: center;
+        z-index: 2;
+    }
+
+    p.author{
+        position: relative;
+        color:white;
+         font-size: .60rem;
+         font-weight: 300;
+         text-transform: capitalize;
+         text-align: center;
+         z-index: 2;
+     }
+
+        #Reviews{
+        padding: 10px 0;
+        text-align: right;
+        padding-bottom: 15px;
+        }
+
+     .rev-title{
+         text-align: center;
+         color:black;
+         padding-right: 12px;
+         padding-top: 10px;
+         font-size: 1.5rem;
+         font-weight: 300;
+         letter-spacing: .1em;
+     }
+
+     h1.accolades{
+         color: black;
+         line-height: 1;
+         padding-right: 6px;
+     }
+
+      .review-div p{
+      font-size: 1rem;
+    }
+    .side-img{
+        padding-top: 1.25px;
+        position: relative;
+        height: 300px;
+        width: 300px;
+        text-align: left;
+    }
+
+    img{
+        position: absolute;
+        /*max-width: 600px;*/
+        width: 100%;
+    }
+
+       
+
+    h4{
+        font-weight: 700;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .author{
+        font-size: .5rem;
+        font-weight: 300;
+        color: black;
+        text-transform: capitalize;
+        margin-bottom: 2rem;
+    }
+
+    strong{
+        color:white;
+        font-weight: 700;
+    }
+
+    p.review{
+        font-size:.75rem;
+        padding-right: 25px;
+    }
+
+    a.unslider-arrow.prev, a.unslider-arrow.next{
+    font-size: 22px;
+    }
+
+    i.fa.fa-3.fa-arrow-circle-right, i.fa.fa-3.fa-arrow-circle-left{
+        color:black;
+    }
+
+    i.fa.fa-3.fa-arrow-circle-right:hover, i.fa.fa-3.fa-arrow-circle-left:hover{
+            color:green;
+    }
+
+    #ContactUs{
+    padding: 50px 0;
+    background: grey;
+    height: auto;
+    margin: 0 auto;
+    }
+
+    .name,.contact-title{
+        text-align: center;
+    }
+
+
+    .content-box{
+        max-width:100%;
+        padding: 10px 10px 10px 10px;
+        background: white;
+        height: auto;
+        margin-bottom: 37.5px;
+    }
+
+
+    h5.contact-title{
+        font-family: Rozha+One ;
+        font-size: 1.5rem;
+        margin-top: 0;
+        letter-spacing: .2em;
+        color:black;
+    }
+
+    .name{
+        font-weight: 200;
+    }
+
+    .city{
+        text-align: left;
+        font-size: 1.7rem;
+        color:black;
+        font-weight: 600;
+        line-height: 1.7;
+        margin-top:10px;
+    }
+
+    .address{
+        text-align: left;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: black;
+        line-height: 1.7;
+    }
+
+    strong.email, p.email{
+        text-align: left;
+        font-size: 1.5rem;
+        color:black;
+        font-weight: 600;
+    }
+
+    .contact-phone{
+        text-align: left;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: black;
+        margin-top: 10px;
+    }
+
+    .lunch{
+        text-align: left;
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    .dinner{
+        text-align: left;
+        font-size: 1.5rem;
+        color: black;
+        line-height: 1.7;
+    }
+    .contact-info{
+        text-align: left;
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: black;
+        line-height: 1.7;
+    }
+
+
+
+    h3.number{
+        text-align: left;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: black;
+    }
+
+    .open-days{
+        font-weight: 600;
+        color: black;
+    }
+               
+    a.elink{
+        color: green;
+        font-size: .8rem;
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+        text-align: center;
+    }
+
+    a.elink:hover{
+        color: #911A20;
+        font-weight: 600;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+    }
+
+    a:hover{
+        /*color:#911A20;*/
+        color:#911A20;;
+        font-weight: 300;
+    }
+
+    nav.footer-menu{
+    display: block;
+    margin: 0 auto 50px;
+    text-align: center;
+    padding-right:45px;
+        }
+
+        nav.footer-menu li{
+            display: block;
+            list-style: none;
+        }
+
+        a.navvy{
+            text-align: center;
+            color: white;
+            display: block;
+            padding: 7.5px 7.5px 7.5px 0;
+            text-decoration: none;
+            transition: all 0.5s ease-in-out;
+            font-size:1.25rem;
+        }
+
+        li.color{
+            display: inline-block;
+            padding: 10px;
+            font-size: .75em;
+        }
+
+        a.icons{
+            color:white;
+            transition: all 0.5s ease-in-out;
+        }
+
+        #fullmenu{
+            padding: 0;
+            margin:0;
+            border-top: 3px solid black;
+            border-bottom: 3px solid black;
+            background: linear-gradient(135deg,rgba(0, 0, 0,.2)0,#661005 100%);
+            max-width:100%;
+            height:1300px;
+            background-position:  center ; 
+            background-repeat: no-repeat;
+        }
+        
+    /*.box-image{
+            max-width: 100%;
+            max-height: 100%;
+            margin: 0 auto;
+            display:block;
+            /*margin-bottom: 3px;
+        }*/
+
+        .box1{
+            padding: 2px;
+            max-width:100%;
+            height: 75%;
+            margin:0 auto;
+            display: block;
+        }
+
+        .box2{
+            
+            padding: 2px;
+            max-width:100%;
+            height: 75%;
+            margin-top: 0px;
+            display: block;
+        }    
+        
+        
+        
+        p.full-title{
+            position: relative;
+            margin-top: 300px;
+            text-align: center;
+            color: white;
+            font-size: 1.25rem;
+            letter-spacing: .2em;
+            font-family: 'PT Sans', sans-serif;
+        }
+        
+
+        
+        .busname{
+            font-family: 'PT Sans', sans-serif;
+            display: block;
+            color:white;
+            font-weight: 600;
+            font-size: .75rem;
+            text-align: center;
+            line-height: 1;
+            padding-bottom: 10px;
+            padding-top:10px;
+        }
+        
+        img.lsfm-img{
+            position: absolute;
+            padding: 0px;
+            margin:0;
+            border-top: 3px solid black;
+            border-bottom: 3px solid black;
+            max-width:100%;
+            height:1300px;
+            background-position:  center ; 
+            background-repeat: no-repeat;
+            
+        }
+        
+       img.fmcc{
+            max-width:100%;
+            height: 70%;
+            margin: auto;
+        }
+
+        img.fmhs{
+            max-width:100%;
+            height: 70%;
+            margin:0 auto;
+        }
+
+      .col-md-6{
+            max-width: 90%;
+            max-height:60%;
+            margin: 0 auto;
+        }
+
+       .box-container2{
+           padding: 10px 10px 10px 10px;
+            max-width: 100%;
+            max-height:100%;
+            margin: auto;
+            
+        }
+
+       
+}
